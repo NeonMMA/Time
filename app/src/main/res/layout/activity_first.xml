@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".first">
+
+    <ImageButton
+        android:id="@+id/Info"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:adjustViewBounds="false"
+        android:onClick="onclick"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/war_is_the_answer" />
+
+    <TextView
+        android:id="@+id/DayOff"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/Start" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/HeartTraining"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/HeartTraining"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/Round"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/RoundName"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</LinearLayout>

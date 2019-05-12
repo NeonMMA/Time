@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">first edition</string>
+    <string name="HeartTraining">кардиотренировка</string>
+    <string name="RoundName">круговая</string>
+    <string name="Start">Start</string>
+    <string name="Rounds">Round</string>
+</resources>
